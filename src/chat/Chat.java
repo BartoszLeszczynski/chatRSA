@@ -6,14 +6,14 @@ import java.security.SecureRandom;
 import java.util.Random;
 
 public class Chat {
-    public static int BIT_LENGTH = 1024;
+    //public static int BIT_LENGTH = 1024;
     
     
     
     public static void main(String[] args) {
        
        // Generuje losowe liczby pierwsze
-      Random rand = new SecureRandom();
+     /* Random rand = new SecureRandom();
       BigInteger p = new BigInteger(BIT_LENGTH / 2, 100, rand);
       BigInteger q = new BigInteger(BIT_LENGTH / 2, 100, rand);
 
@@ -50,6 +50,6 @@ public class Chat {
       // Wiadomość deszyfrowanie
       BigInteger dec = enc.modPow(d, n);
       txt = new String(dec.toByteArray());
-         System.out.println("dec: "+txt);
+         System.out.println("dec: "+txt);*/
     }
 }

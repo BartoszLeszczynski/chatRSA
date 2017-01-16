@@ -80,7 +80,7 @@ public class chat_Klient extends javax.swing.JFrame {
         try{
             //odczytanie
             
-            Message mess = (Message) ois.readObject();
+            Message mess =  (Message) ois.readObject();
             BigInteger n = mess.n;
             BigInteger e = mess.e;
 
